@@ -1,4 +1,4 @@
-class FirstClass{
+public class FirstClass{
 
 	public static void main(String... a){
 		System.out.println("Hello World!");
@@ -6,8 +6,8 @@ class FirstClass{
 		obj1.abc();
 	}
 
-	int abc(){
-		System.out.println("ABC!!");
-		return 0;
+	public int abc(){
+		System.out.println("ABC!");
+		return 0; 
 	}
 }
